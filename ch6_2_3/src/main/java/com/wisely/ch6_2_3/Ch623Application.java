@@ -12,8 +12,8 @@ import com.wisely.ch6_2_3.config.AuthorSettings;
 public class Ch623Application {
 	
 	@Autowired
-	private AuthorSettings authorSettings; //1
-	
+	private AuthorSettings authorSettings; //1.可以用@Autowired直接注入该配置
+
 	@RequestMapping("/")
 	public String index(){
 		return "author name is "+ authorSettings.getName()+" and author age is "+authorSettings.getAge();
