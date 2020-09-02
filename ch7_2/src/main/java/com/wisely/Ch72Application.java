@@ -11,7 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @SpringBootApplication
 public class Ch72Application {
-	
+
+	/**
+	 * 准备数据
+	 * localhost:8080
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping("/")
 	public String index(Model model){
 		Person single = new Person("aa",11);

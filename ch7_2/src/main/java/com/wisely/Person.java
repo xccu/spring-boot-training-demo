@@ -1,5 +1,8 @@
 package com.wisely;
 
+/**
+ * 模板页面展示的数据模型
+ */
 public class Person {
 	private String name;
 	private Integer age;
