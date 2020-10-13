@@ -138,7 +138,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.1</version>
             <scope>test</scope> <!--该jar包只存活在test周期，发布时不包含-->
         </dependency>
 
