@@ -6,6 +6,9 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 控制器
+ */
 @RestController
 @SpringBootApplication
 public class Ch77Application {

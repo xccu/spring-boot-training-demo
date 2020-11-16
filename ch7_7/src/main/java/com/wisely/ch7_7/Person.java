@@ -1,5 +1,8 @@
 package com.wisely.ch7_7;
 
+/**
+ * 传值对象JavaBean
+ */
 public class Person {
 	private String name;
 	private Integer age;
